@@ -1,0 +1,75 @@
+
+body
+{
+	background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container
+{
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  margin-top: 100px;
+  box-shadow: 10px 10px 30px 10px black;
+}
+.title
+{
+	display: grid;
+	grid-template-columns: auto;
+	margin-left: 140px;
+	margin-bottom: 50px;
+}
+.title h3
+{
+	margin-left: 130px;
+}
+.img
+{
+	margin-top: 10px;
+  margin-left: 70px;
+ 
+}
+.img img
+{
+	border: 1px solid black;
+border-radius: 70%;
+}
+
+.form-group
+{
+	margin-bottom: 50px;
+	margin-left: 80px;
+}
+.form-group label
+{
+	margin-bottom: 10px;
+}
+.form-group input
+{
+	width: 80%;
+}
+
+.form-group img
+{
+
+	margin-bottom: 10px;
+}
+
+button
+{
+	margin-left: 80px;
+	margin-bottom: 30px;
+	box-shadow: #094c66 4px 4px 0px;
+	transition: transform 200ms , box-shadow 200ms;
+}
+
+button:active
+{
+	transform: translateY('4px') translateX(4px);
+	box-shadow: #094c66 0px 0px 0px ;
+}
+.foot
+{
+	margin-left: 40px;
+}
